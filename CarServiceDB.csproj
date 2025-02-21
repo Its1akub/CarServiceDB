@@ -8,4 +8,45 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="UI\ConfirmationDialog.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="UI\DeleteData.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="UI\Form1.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="UI\InsertData.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="UI\UpdateData.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="UI\InsertMechanics.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="UI\AddRepairsToMechanics.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="AppFiles\appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="AppFiles\create.sql">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

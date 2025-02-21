@@ -1,3 +1,5 @@
+using CarServiceDB.UI;
+
 namespace CarServiceDB;
 
 static class Program
