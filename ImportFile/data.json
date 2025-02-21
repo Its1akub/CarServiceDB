@@ -1,0 +1,44 @@
+﻿{
+  "Customers": [
+    {
+      "CustomerId": 1,
+      "Name": "Jan",
+      "Surname": "Novák",
+      "PhoneNumber": "123456789",
+      "Email": "jan.novak@email.com",
+      "Discount": 10,
+      "IsVIP": true
+    },
+    {
+      "CustomerId": 2,
+      "Name": "Petr",
+      "Surname": "Svoboda",
+      "PhoneNumber": "987654321",
+      "Email": "petr.svoboda@email.com",
+      "Discount": 5,
+      "IsVIP": false
+    }
+  ],
+  "Vehicles": [
+    {
+      "CustomersId": 1,
+      "LicensePlate": "ABC1234",
+      "Brand": "Toyota",
+      "Model": "Corolla",
+      "Color": "Red",
+      "Year": 2018,
+      "Mileage": 45000.5,
+      "LastService": "2020-02-02"
+    },
+    {
+      "CustomersId": 2,
+      "LicensePlate": "XYZ5678",
+      "Brand": "Volkswagen",
+      "Model": "Golf",
+      "Color": "Blue",
+      "Year": 2020,
+      "Mileage": 32000.8,
+      "LastService": "2022-02-02"
+    }
+  ]
+}

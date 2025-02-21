@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+    <Customers>
+        <Customer>
+            <CustomerId>1</CustomerId>
+            <Name>Jan</Name>
+            <Surname>Novák</Surname>
+            <PhoneNumber>123456789</PhoneNumber>
+            <Email>jan.novak@email.com</Email>
+            <Discount>10</Discount>
+            <IsVIP>true</IsVIP>
+        </Customer>
+        <Customer>
+            <CustomerId>2</CustomerId>
+            <Name>Petr</Name>
+            <Surname>Svoboda</Surname>
+            <PhoneNumber>987654321</PhoneNumber>
+            <Email>petr.svoboda@email.com</Email>
+            <Discount>5</Discount>
+            <IsVIP>false</IsVIP>
+        </Customer>
+    </Customers>
+
+    <Vehicles>
+        <Vehicle>
+            <CustomersId>1</CustomersId>
+            <LicensePlate>ABC1234</LicensePlate>
+            <Brand>Toyota</Brand>
+            <Model>Corolla</Model>
+            <Color>Red</Color>
+            <Year>2018</Year>
+            <Mileage>45000.5</Mileage>
+            <LastService>2020-02-02</LastService>
+        </Vehicle>
+        <Vehicle>
+            <CustomersId>2</CustomersId>
+            <LicensePlate>XYZ5678</LicensePlate>
+            <Brand>Volkswagen</Brand>
+            <Model>Golf</Model>
+            <Color>Blue</Color>
+            <Year>2020</Year>
+            <Mileage>32000.8</Mileage>
+            <LastService>2022-02-02</LastService>
+        </Vehicle>
+    </Vehicles>
+</Data>
