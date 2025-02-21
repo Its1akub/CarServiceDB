@@ -179,6 +179,7 @@ public partial class DeleteData : Form
         }
         MessageBox.Show("Data has been successfully deleted!", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
         LoadData();
+        Close();
     }
 
     /// <summary>

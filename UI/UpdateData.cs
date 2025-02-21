@@ -161,6 +161,7 @@ public partial class UpdateData : Form
         MessageBox.Show("Data has been successfully Updated!", "Confirmation", MessageBoxButtons.OK,
             MessageBoxIcon.Information);
         LoadData();
+        Close();
     }
 
 
